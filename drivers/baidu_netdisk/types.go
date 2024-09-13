@@ -113,7 +113,7 @@ type DownloadResp struct {
 	} `json:"list"`
 	//Names struct {
 	//} `json:"names"`
-	RequestId string `json:"request_id"`
+	RequestId int64 `json:"request_id"`
 }
 
 type DownloadResp2 struct {
